@@ -58,6 +58,10 @@ header h1
     margin-bottom: 50px;
 
 }
+h1 a
+{
+    color:black;
+}
 header h1:after
 {
     content: '';
