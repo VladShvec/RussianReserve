@@ -15,7 +15,7 @@ html,body
     margin-right: auto;
     
 }
-h1{
+h2{
     font-family: 'Arial';
     font-size: 16px;
     font-weight: bold;
@@ -120,7 +120,7 @@ section
     padding-right: 138px;
 }
 
-.projects h1
+.projects h2
 {
 
     padding-top: 35px;
@@ -207,13 +207,14 @@ section
     display: inline-block;
     margin-right: 30px;
     margin-top: 12px;
+    width: 127px;
 }
 .images img
 {
     margin-bottom: 18px;
 }
 
-h3
+h3 a
 {
     color: #199946;
     font-family: 'Arial' ;
@@ -222,7 +223,7 @@ h3
     width: 132px;
     
 }
-.fpers h3 {
+h3 a:hover {
     color:#33369d;
 }
 .last
