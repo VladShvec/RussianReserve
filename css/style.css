@@ -49,24 +49,6 @@ header
     content: '';
     clear: both;
 }
-header h1
-{
-    float: left;
-    font-family: 'Arial';
-    line-height: normal;
-    font-size: 22px;
-    margin-bottom: 50px;
-
-}
-h1 a
-{
-    color:black;
-}
-header h1:after
-{
-    content: '';
-    clear: both;
-}
 nav
 {
     position: absolute;
@@ -134,14 +116,7 @@ section
 {
     float: left;
 }
-.first
-{
-    background-color: #164267;
-    text-align: left;
-    height: 40px;
-    width: 161px;
-    margin-right: 30px;
-}
+
 .projects a
 {
     color: #fff;
@@ -150,51 +125,56 @@ section
     font-size: 13px;
     
 }
-.second
+.projects p:nth-child(n+1)
 {
-    width: 246px;
+    width:166px;
     background-color: #29363c;
     text-align: left;
     height: 40px;
     margin-right: 29px;
  
 }
-.ppp
+.projects p:nth-child(2n+1)
 {
-    width:182px ;
-    height: 40px;
-    background-color: #5a7302;
+    width:248px ;
+    height: 46px;
+    background-color: #29363c;
 }
-.trrr
+.projects p:nth-child(3n+1)
 {
     height: 49px;
     width: 172px;
     margin-top:25px;
     margin-right: 19px;
-    
-}
-.trrr > a
-{
-    color: blue;
-}
-.ggg
-{
-    width: 150px;
-    height: 49px;
-    background-color: #909c90;
-    margin-top: 25px;
-    margin-right: 126px;
-}
-
-.ddd
-{
-
-    width: 150px;
-    height: 49px;
-    background-color: #909c90;
-    margin-top: 25px;
-    
     background-color: #93a603;
+    
+}
+.projects p:nth-child(4n+1) > a
+{
+    color: #33369d;
+}
+.projects p:nth-child(4n+1)
+{
+    width: 168px;
+    height: 49px;
+   background-color: #fff;
+    margin-top: 25px;
+    margin-right: 47px;
+}
+
+.projects p:nth-child(5n+1)
+{
+
+    width: 150px;
+    height: 49px;
+     background-color: #909c90;
+    margin-top: 25px;
+    
+    
+}
+.ppp
+{
+    background-color: #5a7302;
 }
 .personal
 {
